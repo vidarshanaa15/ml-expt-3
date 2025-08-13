@@ -53,7 +53,7 @@ Academic year       & \multicolumn{1}{c|}{2025-2026 (Odd)}                      
     \item {Numpy}
     \item {Matplotlib}
     \item {Scikit-learn}
-    \item {Time}
+    \item {Seaborn}
 \end{itemize}
 
 \noindent
@@ -347,9 +347,9 @@ Training Time(s) & 0.0117 & 0.0089 \\
 \textbf{Kernel} & \textbf{Hyperparameters} & \textbf{Accuracy} & \textbf{F1 Score} & \textbf{Training Time}\\
 \hline
 Linear & C = 1 & 0.9268 & 0.9231 & 398.0380\\
-Polynomial & C = 1, degree = 3, gamma =  & 0.6957 & 0.5476 & 1.1503\\
-RBF & C = 1, gamma =  & 0.7872 & 0.7644 & 1.5646\\
-Sigmoid & C = 1, gamma =  & 0.4177 & 0.3224 & 0.5035\\
+Polynomial & C = 1, degree = 3, gamma = scale & 0.6957 & 0.5476 & 1.1503\\
+RBF & C = 1, gamma = scale & 0.7872 & 0.7644 & 1.5646\\
+Sigmoid & C = 1, gamma = scale & 0.4177 & 0.3224 & 0.5035\\
 \hline
 \end{tabular}
 \caption{SVM Performance with Different Kernels and Parameters}

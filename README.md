@@ -17,9 +17,9 @@ To classify emails as spam or ham using three classification algorithms: Naïve 
 ## 📁 Folder Structure
 ```bash
 ml-expt-2/
-├── README.md                       # Overview, tools, file summary, run instructions
+├── README.md                        # Overview, tools, file summary, run instructions
 ├── datasets/
-│   └── spambase.csv                   # Dataset for training classification models
+│   └── spambase.csv                 # Dataset for training classification models
 ├── Experiment-3/
 │   ├── expt-3.ipynb                 # Implementation notebook
 ├── screenshots/
@@ -67,7 +67,7 @@ Average accuracy from 5-fold cross-validation:
 
 - **Naïve Bayes (Bernoulli)**: `0.8810`
 - **K-Nearest Neighbors (k=1)**: `0.7712`
-- **Support Vector Machine (Linear Kernel)**: `0.7629`
+- **Support Vector Machine (Linear Kernel)**: `0.9217`
 
 ## 🙌 Credits
 
