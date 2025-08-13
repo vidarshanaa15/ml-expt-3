@@ -364,13 +364,13 @@ Sigmoid & C = 1, gamma =  & 0.4177 & 0.3224 & 0.5035\\
 \hline
 \textbf{Fold} & \textbf{Naïve Bayes Accuracy} & \textbf{KNN Accuracy} & \textbf{SVM Accuracy}\\
 \hline
-Fold 1 & 0.8627 & 0.7643 & 0.7643\\
-Fold 2 & 0.8993 & 0.7712 & 0.7689\\
-Fold 3 & 0.8673 & 0.7666 & 0.7368\\
-Fold 4 & 0.8810 & 0.7529 & 0.7574\\
-Fold 5 & 0.8947 & 0.8009 & 0.7872\\
+Fold 1 & 0.8627 & 0.7643 & 0.9268\\
+Fold 2 & 0.8993 & 0.7712 & 0.9268\\
+Fold 3 & 0.8673 & 0.7666 & 0.9108\\
+Fold 4 & 0.8810 & 0.7529 & 0.9176\\
+Fold 5 & 0.8947 & 0.8009 & 0.9268\\
 \hline
-\textbf{Average} & 0.8810 & 0.7712 & 0.7629\\
+\textbf{Average} & 0.8810 & 0.7712 & 0.9217\\
 \hline
 \end{tabular}
 \caption{Cross-Validation Scores for Each Model}
@@ -380,7 +380,7 @@ Fold 5 & 0.8947 & 0.8009 & 0.7872\\
 \section{Observations and Conclusions}
 \begin{itemize}
     \item \textbf{Which classifier had the best average accuracy?}
-    \\Naïve Bayes achieved the highest mean accuracy across all classifiers in the 5-fold cross-validation, indicating a strong match between the dataset’s characteristics and the model’s probabilistic assumptions.
+\\The Linear SVM achieved the highest mean accuracy of 0.9217 across all classifiers in the 5-fold cross-validation, indicating its effectiveness in capturing the dataset’s decision boundaries with a linear separation.
     \item \textbf{Which Naïve Bayes variant worked best?}
     \\Of the Naïve Bayes variants tested, Bernoulli Naïve Bayes classifier yielded the best performance, demonstrating superior accuracy compared to Gaussian and Multinomial variants.
     \item \textbf{How did KNN accuracy vary with k and tree type?}
